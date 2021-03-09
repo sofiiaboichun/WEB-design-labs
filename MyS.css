@@ -1,18 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Georgia", serif;
   font-size: 14px;
   line-height: 20px;
   color: #444444;
 }
 
-h1 {
-  width: 500px;
-  margin: 0 auto 8px;
+h1, h2 {
   font-family: "Georgia", serif;
   text-align: center;
   font-weight: normal;
+}
+
+h1 {
+  width: 500px;
+  margin: 0 auto 8px;
   font-size: 56px;
   line-height: 64px;
   color: red;
@@ -20,9 +23,6 @@ h1 {
 
 h2 {
   top: 0;
-  font-family: "Georgia", serif;
-  text-align: center;
-  font-weight: normal;
   font-size: 36px;
   color:blueviolet;
 }
@@ -60,6 +60,11 @@ li {
   margin-left: 120px;
 }
 
+li > ol {
+  text-align: left;
+  font-weight: normal;
+}
+
 div {
   text-align: center;
   margin-left: 100px;
@@ -68,6 +73,10 @@ div {
   color: black;
   font-size: 20px;
 }
+
+b + i {
+  color: red;
+ }
 
 table, th, td {
   border: 3px solid;
@@ -80,5 +89,14 @@ table, th, td {
   color: black;
   font-size: 20px;
   text-align: center;
- 
+}
+
+ol#list2 {
+  margin-right: 150px;
+}
+
+p#plav {
+  float: right; 
+  width: 200px;
+  background-color: plum;
 }
