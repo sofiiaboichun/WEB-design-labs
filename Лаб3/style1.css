@@ -1,0 +1,79 @@
+
+table {
+    width: 100%;
+}
+
+table#table1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 40%;
+}
+
+table#table2 {
+    font-family: "Georgia", serif;
+    color: black;
+    font-size: 20px;
+    width: 85%;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+tr#must {
+    background-color: rgb(129, 231, 116);
+}
+
+table#table3 {
+    font-family: "Georgia", serif;
+    color: black;
+    font-size: 20px;
+    width: 85%;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgb(129, 231, 116);
+}
+
+tr#first {
+    background-color: palevioletred;
+    text-align: center;
+}
+
+th {
+    width: 25%;
+}
+
+td#new {
+    width: 15%;
+    font-family: "Georgia", serif;
+    color: white;
+    font-size: 70px;
+    background-color: rgb(218, 44, 102);
+}
+
+tr#new2 {
+    background-color: pink;
+}
+
+td {
+    width: 25%;
+}
+
+td#pic {
+    width: 1%;
+}
+
+td#last {
+    text-align: center;
+    font-family: "Georgia", serif;
+    color: black;
+    font-size: 20px;
+    background-color: plum;
+
+}
+
+td#last {
+    background-color: plum;
+    height: 180px;
+}
