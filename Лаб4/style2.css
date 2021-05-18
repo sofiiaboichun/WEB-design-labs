@@ -7,8 +7,8 @@ header {
     font-family: "Georgia", serif;
 }
 
-#list li {
-    display: inline;
+#list div {
+    
     margin-right: 5px;
     border: 3px solid;
     border-color: black; 
@@ -22,7 +22,15 @@ header {
     font-family: "Georgia", serif;
 }
 
-li a {
+#list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+div a {
     color: white;
     text-decoration: none;
 }

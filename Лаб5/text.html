@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+ <html  lang="en">
+ <head>
+
+ <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+ <title>TextEditor</title>
+ <script type="text/javascript">
+    function Init()
+    {
+        document.getElementById("iframe_redactor").contentWindow.document.designMode = "On";
+    }
+    function doStyle(style)
+    {
+        document.getElementById("iframe_redactor").contentWindow.document.execCommand(style, false, null);
+    }
+    function doColor(color)
+    {
+        document.getElementById("iframe_redactor").contentWindow.document.execCommand("ForeColor", false, color);
+    }
+    function doSize(size)
+    {
+        document.getElementById("iframe_redactor").contentWindow.document.execCommand("fontsize", false, size);
+    }
+ </script>
+ 
+ </head>
+   <body onLoad="Init();">
+   <button onClick="doStyle('bold');">bold</button>
+   <button onClick="doStyle('italic');">italic</button>
+   <button onClick="doStyle('underline');">underline</button>
+   <p><button onClick="doColor('red');">red</button>
+   <button onClick="doColor('blue');">blue</button>
+   <button onClick="doColor('green');">green</button>
+   <button onClick="doColor('yellow');">yellow</button>
+   <button onClick="doColor('purple');">purple</button>
+   <button onClick="doColor('pink');">pink</button>
+   <button onClick="doColor('orange');">orange</button>
+   <button onClick="doColor('black');">black</button> </p>
+   <button onClick="doSize('20');">20</button>
+   <br/><iframe id="iframe_redactor" width="800px" height="500px"></iframe>
+ </body>
+ </html>
