@@ -1,0 +1,40 @@
+.date{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#polzunok{
+    margin-top: 50px;
+    margin-left: 50px;
+width: 400px;
+}
+
+.polz{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#result-polzunok{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100px;
+}
+
+#SinoptikInformer{
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: flex-end;
+}
+
+#currency{
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: flex-end;
+}
+
+footer {
+    background-color: blueviolet;
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
